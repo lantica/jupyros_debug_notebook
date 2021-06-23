@@ -4,7 +4,7 @@ RUN pip install jupyros
 
 WORKDIR /notebook
 
-COPY debug.ipynb ./
+COPY ricedebug.ipynb ./
 
 COPY jupyter_notebook_config.py /home/jovyan/.jupyter/jupyter_notebook_config.py
 
